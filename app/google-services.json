@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "677806009140",
+    "project_id": "thestoryshop-dac7b",
+    "storage_bucket": "thestoryshop-dac7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677806009140:android:c4bb8bd2949b610a311361",
+        "android_client_info": {
+          "package_name": "com.example.thestoryshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677806009140-1s42ar0dcsd2ekgtfokmddbe61mg0mmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1rkXwu2MB882-WpM3B33VsjvnTvNN57E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677806009140-1s42ar0dcsd2ekgtfokmddbe61mg0mmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LauncherActivity"
+    tools:ignore="HardcodedText"
+    android:background="@drawable/newbg">
+
+
+    <ImageView
+        android:id="@+id/imageIcon"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:src="@drawable/icon"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="120dp"/>
+
+    <TextView
+        android:id="@+id/shopName"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageIcon"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/allura"
+        android:text="THE STORY SHOP"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/shopName"
+        android:layout_marginTop="100dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/quote1"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quote2"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quote3"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Get Started"
+        android:textColor="@color/black"
+        android:layout_below="@+id/shopName"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginStart="100dp"
+        android:backgroundTint="@color/bg"/>
+
+</RelativeLayout>

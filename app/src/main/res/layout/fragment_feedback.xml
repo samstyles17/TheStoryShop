@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebg"
+    tools:context=".FeedbackFragment"
+    tools:ignore="Hardcoded Text">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:id="@+id/feedbackName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/roboto"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/feedbackPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/roboto"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please give us feedback to improve our service"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="190dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/overallexperienceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Overall Experience"
+            android:fontFamily="cursive"
+            android:textSize="25sp"
+            android:layout_marginStart="20dp"/>
+
+        <RadioGroup
+            android:id="@+id/overallexperienceRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+
+                <RadioButton
+                    android:id="@+id/rb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ecellent"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/allura"
+                    android:textStyle="bold"
+                    android:padding="6dp"/>
+
+
+                <RadioButton
+                    android:id="@+id/rb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Neutral"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/allura"
+                    android:textStyle="bold"
+                    android:padding="6dp"/>
+
+                <RadioButton
+                    android:id="@+id/rb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Poor"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/allura"
+                    android:textStyle="bold"
+                    android:padding="6dp"/>
+
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/navigationeaseText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate us on ease of Navigation"
+            android:fontFamily="cursive"
+            android:textSize="25sp"
+            android:layout_marginStart="20dp"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:stepSize="0.1"
+            android:contentDescription="Rating Bar"/>
+
+
+        <TextView
+            android:id="@+id/featureText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slide to show satisfaction based on app's features"
+            android:fontFamily="cursive"
+            android:textSize="25sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:max="10"
+            android:progress="0"
+            />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/bg"
+            android:text="SUBMIT THE FEEDBACK"
+            android:textColor="@color/black"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
