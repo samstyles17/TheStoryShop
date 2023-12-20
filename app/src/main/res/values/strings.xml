@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">TheStoryShop</string>
-    <string name="quote1">"When I look back, I am so impressed again with the life-giving power of literature. If I were a young person today, trying to gain a sense of myself in the world, I would do that again by reading, just as I did when I was young." – Maya Angelou</string>
-    <string name="quote2">"If we encounter a man of rare intellect, we should ask him what books he reads." – Ralph Waldo Emerson</string>
-    <string name="quote3"> "A book is a dream that you hold in your hand." – Neil Gaiman</string>
+    <string name="quote1">“Hope is the thing with feathers that perches in the soul and sings the tune without the words and never stops at all.” – Emily Dickinson</string>
+    <string name="quote2">“Hope can be a powerful force. Maybe there’s no actual magic in it, but when you know what you hope for most and hold it like a light within you, you can make things happen, almost like magic.” – Laini Taylor</string>
+    <string name="quote3"> “We have always held to the hope, the belief, the conviction that there is a better life, a better world, beyond the horizon.” – Franklin D. Roosevelt</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
